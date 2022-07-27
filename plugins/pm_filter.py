@@ -433,12 +433,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct')
         ], [
             InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='GHHM'),
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 ', callback_data='start'),
-            InlineKeyboardButton(' ꜱᴏɴɢꜱ ', callback_data='songs')
+            InlineKeyboardButton(' ꜱᴏɴɢꜱ ', callback_data='songs'),
+            InlineKeyboardButton('ᴜʀʟ ꜱʜᴏʀᴛ', callback_data='urlshort'),
         ], [
             InlineKeyboardButton('📊 ꜱᴛᴀᴛᴜꜱ 📊', callback_data='stats'),
-            InlineKeyboardButton('ᴜʀʟ ꜱʜᴏʀᴛ', callback_data='urlshort'),
-            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik')
         ], [
             InlineKeyboardButton('ʏᴛ.ᴛʜᴜʙᴍ', callback_data='ytthumb'),
             InlineKeyboardButton('ʏᴛ.ᴠɪᴅᴇᴏ', callback_data='video'),
