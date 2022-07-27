@@ -41,14 +41,14 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nSearch Your Own File, \n\n⚠️ Don't Click Others Results 😬", show_alert=True)
+        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nꜱᴇᴀʀᴄʜ ʏᴏᴜʀ ᴏᴡɴ ꜰɪʟᴇ,\n\n⚠️ ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ᴏᴛʜᴇʀꜱ ʀᴇꜱᴜʟᴛꜱ 😬", show_alert=True)
     try:
         offset = int(offset)
     except:
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer(f"⚠️ Hey, {query.from_user.first_name}! You are using one of my old messages, send the request again ⚠️",show_alert=True)
+        await query.answer(f"⚠️ Hey, {query.from_user.first_name}! ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, ꜱᴇɴᴅ ᴛʜᴇ ʀᴇQᴜᴇꜱᴛ ᴀɢᴀɪɴ ⚠️",show_alert=True)
         return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
@@ -121,12 +121,12 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nSearch Your Own File, \n\n⚠️ Don't Click Others Results 😬", show_alert=True)
+        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nꜱᴇᴀʀᴄʜ ʏᴏᴜʀ ᴏᴡɴ ꜰɪʟᴇ,\n\n⚠️ ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ᴏᴛʜᴇʀꜱ ʀᴇꜱᴜʟᴛꜱ 😬", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
+        return await query.answer("ʏᴏᴜ ᴀʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴀɴ ᴏʟᴅ ʙᴜᴛᴛᴏɴ ᴡʜɪᴄʜ ɪꜱ ᴇxᴘɪʀᴇᴅ.", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('Checking for Movie in database...')
     k = await manual_filters(bot, query.message, text=movie)
@@ -428,23 +428,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝗠𝗮𝗻𝘂𝗲𝗹 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data='autofilter'),
-            InlineKeyboardButton('𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀', callback_data='coct')
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter'),
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct')
         ], [
-            InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='GHHM'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='GHHM'),
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 ', callback_data='start'),
-            InlineKeyboardButton(' SONGS ', callback_data='songs')
+            InlineKeyboardButton(' ꜱᴏɴɢꜱ ', callback_data='songs')
         ], [
-            InlineKeyboardButton('♻️ 𝗦𝘁𝗮𝘁𝘀 ♻️', callback_data='stats'),
-            InlineKeyboardButton('𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
+            InlineKeyboardButton('📊 ꜱᴛᴀᴛᴜꜱ 📊', callback_data='stats'),
+            InlineKeyboardButton('ᴜʀʟ ꜱʜᴏʀᴛ', callback_data='urlshort'),
             InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik')
         ], [
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
-            InlineKeyboardButton('video', callback_data='video'),
-            InlineKeyboardButton('File-Store', callback_data='malikk')
+            InlineKeyboardButton('ʏᴛ.ᴛʜᴜʙᴍ', callback_data='ytthumb'),
+            InlineKeyboardButton('ʏᴛ.ᴠɪᴅᴇᴏ', callback_data='video'),
+            InlineKeyboardButton('ꜰɪʟᴇ-ꜱᴛᴏʀᴇ', callback_data='malikk')
         ], [
-            InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
+            InlineKeyboardButton('🚶‍♀ ʙᴀᴄᴋ 🚶‍♀', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
