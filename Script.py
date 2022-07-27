@@ -108,7 +108,7 @@ Name - {}
 
     START_TXT = """𝙷𝙴𝙻𝙾 {},
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://telegram.dog/RM_AutoFilterBot>🅁🄰🅂🄼🄸🄺🄰</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 💝"""
-    GHHM_TXT = """<b>7k User 💖 Thanks For Your Support...
+    GHHM_TXT = """<b>💖 Thanks For Your Support...
 
 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾... 😎
 
@@ -119,7 +119,6 @@ Name - {}
 ✪ IMDb HD Posters
 ✪ IMDb Real Details
 ✪ Two Buttons Mode
-✪ Force Subscribe
 ✪ Extra Features: download songs, download you tube video, URL Shortner,  
 
 ⚙ More Features Adding Soon</b> 😎"""
@@ -241,11 +240,11 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ⚠️ हमारे निचे दिए गये update चैनल को join करे जब तक आप हमारे update चैनल को join नहीं करेंगे तब तक bot आपको मूवी नहीं देगा...👇👇 join new 👇👇"""
 
-    OWNER_TXT = """<b>>━━━━᚜ Owner Details ᚛━━━━<
+    OWNER_TXT = """<b>>━━━━᚜ bot Dev. Details ᚛━━━━<
     
-⭕️ FULL NAME : Sahid malik
-⭕️ USERNAME: @sahid_malik
-⭕️PERMANENT DM LINK : <a href=https://t.me/sahid_malik>CLICK Here</a></b>"""
+<b>✮ 🄲🅁🄴🄰🅃🄾🅁: <a href=https://telegram.dog/Akshay_Chand>🄰🄺🅂🄷🄰🅈❤️</a>
+<b>✮ 🄾🅆🄽🄴🅁: <a href=https://t.me/Akanksha695>🄰🄺🄰🄽🄺🅂🄷🄰💝</a>
+<b>✮ 🄰🄳🄼🄸🄽: <a href=https://telegram.dog/Amol_789>🄰🄼🄾🄻💌</a>"""
 
     GROUP_R_TXT = """<b>GROUP RULES
 
