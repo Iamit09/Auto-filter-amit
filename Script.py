@@ -11,17 +11,17 @@ class script(object):
 <b>✮ 🄱🄾🅃 🅂🄴🅁🅅🄴🅁: 🄷🄴🅁🄰🄺🅄</b>
 <b>✮ 🄱🅄🄻🄻🄳 🅂🅃🄰🅃🅄🅂: 🅅4.0.16</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- <b>Movies house is a open source project. 
-- Source 👉 <a href=https://t.me/malik_bots/8>CLICK HERE</a></b>
-
-<b>DEVS:</b>
-- <a href=https://t.me/sahid_malik>Sahid malik</a>"""
+<b>✮ 𝚁𝙰𝚂𝙷𝙼𝙸𝙺𝙰 𝙼𝙰𝙽𝙳𝙰𝙽𝙽𝙰 𝙽𝙾𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃
+<b>✮ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʙᴏᴛ ᴍᴀᴅᴇ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏʀ ᴀᴅᴍɪɴ
+<b>✮ 🄲🅁🄴🄰🅃🄾🅁: <a href=https://telegram.dog/Akshay_Chand>🄰🄺🅂🄷🄰🅈❤️</a>
+<b>✮ 🄾🅆🄽🄴🅁: <a href=https://t.me/Akanksha695>🄰🄺🄰🄽🄺🅂🄷🄰💝</a>
+<b>✮ 🄰🄳🄼🄸🄽: <a href=https://telegram.dog/Amol_789>🄰🄼🄾🄻💌</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. movies house 🏠 have admin privillage.
+1.  Rashmika have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -32,15 +32,15 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- movies house Supports both url and alert inline buttons.
+- Rashmika Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. movies house supports buttons with any telegram media type.
+2. Rashmika supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/sahid_malik)</code>
+<code>[Button Text](buttonurl:https://t.me/xxxxxxxxxxxxx)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -95,8 +95,7 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/sahid_nalik>Sahid malik</a></b> """
+★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱 """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
@@ -107,15 +106,8 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    START_TXT = """<b>Hay {},
-
-I'm ⚡️ Powerful Auto-Filter Bot...
-😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-⚠️ More Help Check Help Button Below
-
-©️Mantained Bʏ  @sahid_malik</b>"""
-
+    START_TXT = """𝙷𝙴𝙻𝙾 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://telegram.dog/RM_AutoFilterBot>🅁🄰🅂🄼🄸🄺🄰</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 💝"""
     GHHM_TXT = """<b>7k User 💖 Thanks For Your Support...
 
 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾... 😎
@@ -143,13 +135,11 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 
 <b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
 
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺           
+✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆          
 ✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲     
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/sahid_malik><b>sahid malik</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=https://t.me/Akshay_Chand><b>AKSHAY</b></a>᚛━━━━━━━━━━━━"""
     DINETTE_TXT =  """<b>Donation</b>
 
    <b>Developer is Super Noob..  Just Learning from Official Docs..  Please Donate the developer for Keeping the Service Alive...</b>
@@ -159,13 +149,11 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 <b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
 
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺           
+✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆          
 ✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲     
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/sahid_malik><b>sahid malik</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=https://t.me/Akshay_Chand><b>AKSHAY</b></a>᚛━━━━━━━━━━━━"""
 
 
     URLSHORT_TXT = """<b>➤ 𝐇𝐞𝐥𝐩: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
@@ -177,7 +165,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ➪ /short: 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
 
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
-/short https://t.me/+veUIdIW2CQ5GU5</b>"""
+/short https://t.me/xxxxxxxxxxxxx</b>"""
 
 
     URLSHORTN_TXT = """<b>➤ 𝐇𝐞𝐥𝐩: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
@@ -189,7 +177,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ➪ /short: 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
 
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
-/short https://t.me/+veUIdIW25mOGU5</b>"""
+/short https://t.me/xxxxxxxxxxxxx</b>"""
 
     VIDEO_TXT ="""<b>𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 
@@ -199,7 +187,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
 • 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (𝘝𝘪𝘥𝘦𝘰 Link)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-/𝘮𝘱4 https://youtu.be/Your Link</b>"""
+/𝘮𝘱4 https://youtu.be/xxxxxxxxxxxxx</b>"""
 
     VIDEOS_TXT ="""<b>𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 
@@ -209,7 +197,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
 • 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (𝘝𝘪𝘥𝘦𝘰 Link)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-/𝘮𝘱4 https://youtu.be/Your Link</b>"""
+/𝘮𝘱4 https://xxxxxxxxxxxxx</b>"""
 
     YTTHUMB_TXT = """<b>𝙷𝙴𝙻𝙿𝚂 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝚅𝙸𝙳𝙴𝙾 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻
     
@@ -217,7 +205,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 𝘛𝘺𝘱𝘦 /ytthumb 𝘈𝘯𝘥 𝘝𝘪𝘥𝘦𝘰 𝘓𝘪𝘯𝘬
 
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦
-/ytthumb https://youtu.be/yourlink</b>"""
+/ytthumb https://xxxxxxxxxxxxx</b>"""
 
     SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴...
 
@@ -227,10 +215,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ››  /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
-𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿
-
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/sahid_malik>Sahid malik</b></a>"""
-
+𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿 """
 
     FILESTORE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
@@ -244,9 +229,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/gjcjknxz/2 https://t.me/jfksucxhb/8</code>
-
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/sahid_nalik>Sahid malik</a></b>"""
+<code>/batch https://t.m/xxxxxxxxxxxxx/2 https://t.me/xxxxxxxxxxxxx/8</code>"""
 
     FORCESUB_TXT = """⚠️ Join our updated channel below.  bot will not give you movie until you join from our update channel...
 
@@ -299,24 +282,17 @@ If you have any question then contact us below  👇</b>"""
 
 ALURT_FND = """<b>.
 
-CHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE.. 
-
-दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें</b> 👇👇👇"""
+CHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE.. </b> 👇👇👇"""
 
 ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
 
              👉 <s>{}</s> 👈 
 
-If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
+If you have any questions & doubts about using me..\n\n Contact my Owner >> @Akanksha789_bot</b>"""
 
-ADDG = """<b>Hay {},
+ADDG = """𝙷𝙴𝙻𝙾 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://telegram.dog/RM_AutoFilterBot>🅁🄰🅂🄼🄸🄺🄰</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 💝"""
 
-I'm ⚡️ Powerful Auto-Filter Bot...
-😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-⚠️ More Help Check Help Button Below
-
-©️Mantained Bʏ  @sahid_malik</b>"""
 
 M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
 
