@@ -467,7 +467,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "GHHM":
         buttons = [[
             InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='extra')
-            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='mbbumm')
+            InlineKeyboardButton('EXTRA ', callback_data='mbbumm')
         ], [
             InlineKeyboardButton('🚶‍♀ ʙᴀᴄᴋ 🚶‍♀', callback_data='start'),
             InlineKeyboardButton('🔐 ᴄʟᴏꜱᴇ 🔐', callback_data='close_data')
