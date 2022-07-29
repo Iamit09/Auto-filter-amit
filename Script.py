@@ -252,12 +252,13 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ☀️ Try to Search movie With  Year If The bot is Not Sending You Accurate Result..
 
-☀️ Search Series In The Given From Example : Gotham S03E01 And S03E10..
-
 ☀️ Search Movies  in The Given From Example:    
+
 (1) Avengers.. ✅
 (2) Avengers Hindi. ✅
 (3) Don't Tipe Avengers Hindi Dubbed..❌
+(4) Money Heist Hindi. ✅
+(5) Money Heist S01Ep06. ✅
 
 ☀️Don't Do Any Self Promotion.
 
