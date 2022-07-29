@@ -58,9 +58,9 @@ async def save_group(bot, message):
                                                  caption=(MALIK_PHH.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                                                                           InlineKeyboardButton('💠 Help 💠', url=f"https://t.me/{temp.U_NAME}?start=help")
                                                                            ],[
-                                                                           InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
+                                                                           InlineKeyboardButton('💝 How to Search Movie 💝', callback_data='group_rules')
                                                                          ]]
                                                  ),
                                                  parse_mode='html'
