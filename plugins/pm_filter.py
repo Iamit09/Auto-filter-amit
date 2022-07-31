@@ -384,11 +384,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
-            dulink = await get_shortlink(f"https://Telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
+            dulink = await get_shortlink(f"https://AdrinoLinks.in/st?Api=5cef8c7193e4df00d04324313f406f9302922530&URL=https://telegram.dog/iPapkornXbot?start={file_id}")
             print(dulink)
             await query.answer(url=dulink)
         except Exception as e:
-            dulink = await get_shortlink(f"https://Telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
+            dulink = await get_shortlink(f"https://AdrinoLinks.in/st?Api=5cef8c7193e4df00d04324313f406f9302922530&URL=https://telegram.dog/iPapkornXbot?start={file_id}")
             print(dulink)
             await query.answer(url=dulink)
     elif query.data.startswith("checksub"):
