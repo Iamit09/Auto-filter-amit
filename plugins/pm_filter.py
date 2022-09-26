@@ -142,7 +142,7 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💌 🄰🄳🄼🄸🄽 💌', url="https://t.me/Akanksha789_bot"),
+                                        InlineKeyboardButton('💌 🄰🄳🄼🄸🄽 💌', url="https://t.me/SubhamSuthar"),
                                                                          
                                       ]]
                ),
@@ -424,10 +424,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💌 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💝 ʜᴇʟᴘ 💝', callback_data='help'),
-            InlineKeyboardButton('💠 ᴀʙᴏᴜᴛ 💠', callback_data='about')
+            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -567,7 +567,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "mbbumm":
         buttons = [[
-            InlineKeyboardButton('💌 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
